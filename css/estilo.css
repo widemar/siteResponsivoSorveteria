@@ -1,0 +1,90 @@
+/* Estilo Css Página Principal */
+body {
+    background-color: #f6f6f6;
+}
+header {
+    
+    background-color: #EDEAEB;
+}
+
+a {
+    color: #7a6666;
+    font-size: 1.2em;
+}
+.centerDropdownMenu{
+    text-align: center;
+}
+.produtos {
+    background-color: #eae7e8;
+}
+h5 {
+    color: #7a6666;
+}
+h4 {
+    color: #e3376b;
+}
+.informacoes {
+    background-color: #c8c10d;
+}
+h3 {
+    color: white;
+}
+a:hover{
+    color: green;
+}
+footer{
+    background-color: #cb3362;
+}
+footer a{
+ color: white;
+}
+hr{
+    display: none;
+}
+/* Estilo Css Página de Contatos */
+#localizacao{
+    background: url(../img/map.jpg);
+    
+}
+#contato{
+    background: #c8c10d;
+}
+
+.opacidade{
+    opacity: 0.7;
+}
+.vermelho{
+    color: #cb3362;
+}
+.ouvirDeVoce{
+    background-color: #EFEDEE;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+   hr{
+       display: block;
+   }
+   .zerarMargemtop{
+       margin-top: 0rem!important;
+   }
+   .zerarMargemBottom{
+       margin-bottom: 0rem!important;
+   }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    hr{
+        display: block;
+    }
+    .zerarMargemtop{
+        margin-top: 0rem!important;
+    }
+    .zerarMargemBottom{
+        margin-bottom: 0rem!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 1200px) {}
